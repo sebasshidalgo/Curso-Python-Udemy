@@ -1,0 +1,29 @@
+# # Declaración Print()
+# print("Hola Mundo")  # imprime Hola Mundo
+#
+# print(150 + 50)  # imprime el resultado de la operacion matemática (200) --> tipo num
+#
+# print("150 + 50")  # imprime la operación matemática como tal (150 + 50) --> tipo string
+#
+# # Strings
+#
+# print("Hola" + " " + "mundo")  # imprime Hola Mundo --> concatenación
+# print("Hola " + "mundo")  # otras formas de imprimir lo mismo sin utilizar un espacio en blanco como otro string
+# print("Hola" + " mundo")  # otras formas de imprimir lo mismo sin utilizar un espacio en blanco como otro string
+#
+# # Caracteres especiales
+#
+# # Indicamos a la consola que el caracter a continuación del símbolo \ debe ser tratado como un caracter especial
+# print("Me llamo \"Sebastián\"")  # \" --> Imprime comillas
+# print("Esto es una línea\nEsto es otra línea")  # \n --> Separa texto en una nueva linea
+# print("\tVa a imprimir una sangría en el texto")  # \t --> Imprime un tabulador(4 caracteres vacíos)
+# print("Quiero imprimir la barra invertida \\")  # \\ --> Imprime la barra invertida textualmente
+#
+# # Función Input
+#
+# input("Dime tu nombre: ")  # El programa espera un ingreso por teclado para continuar con el código
+# print("Tu nombre es " + input("Dime tu nombre: "))
+
+# Proyecto del Día 1
+
+print('El nombre de tu cerveza es:''\n'"\"", input('¿Cual es tu color favorito?')+" "+input('Dime el nombre de tu mascota:'),"\"")
